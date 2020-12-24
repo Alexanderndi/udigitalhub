@@ -2333,7 +2333,7 @@ body.home #slider-section {
 .copyright,
 .top-footer {
   overflow: hidden;
-  border-top: 2px solid #a9dff5;
+  border-top: 2px solid #f8f9fa;
 }
 .copyright ul,
 .top-footer ul {
@@ -2351,7 +2351,7 @@ body.home #slider-section {
 }
 .copyright a.widget-title,
 .top-footer a.widget-title {
-  color: #4211b4;
+  color: #070707;
   padding: 1.5rem 150px;
   font-size: 1.125rem;
   margin-left: -150px;
@@ -2377,7 +2377,7 @@ body .bottom-section.border-top,
 }
 
 .top-footer {
-  background: url("../images/background/4.png");
+  background: url("../images/background/5.png");
 }
 @media (min-width: 1024px) {
   .top-footer {
@@ -2395,7 +2395,7 @@ body .bottom-section.border-top,
 }
 
 .copyright {
-  color: #06088a;
+  color: #0c0c0c;
   padding: 2rem 0;
 }
 .copyright .google-partner {
@@ -2414,7 +2414,7 @@ body .bottom-section.border-top,
 .copyright ul li a {
   width: 1.625rem;
   height: 1.625rem;
-  color: rgb(6, 21, 107);
+  color: rgb(7, 7, 7);
   display: block;
   font-size: 1rem;
   text-align: center;
