@@ -12,7 +12,7 @@
   color: #05315c;
   background-color: #f3f3f7;
   background-clip: padding-box;
-  border: 1px solid #3908ec;
+  border: 1px solid #0638db;
   border-radius: 0.2rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -78,13 +78,13 @@
   opacity: 0.65;
 }
 .btn-primary {
-  background: #2882f7;
-  border-color: #2882f7;
+  background: #0638db;
+  border-color: #0638db;
 }
 .btn-primary:hover {
-  color: #2882f7;
+  color: #0638db;
   background-color: transparent;
-  border-color: #2882f7;
+  border-color: #0638db;
   text-decoration: none;
 }
 @media (max-width: 1024.98px) {
@@ -190,18 +190,18 @@ textarea.form-control {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #2882f7;
+  background-color: #0638db;
 }
 @media (max-width: 1024.98px) {
   .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-    color: #2882f7;
+    color: #0638db;
     background-color: transparent;
   }
   .nav-pills .nav-link.active > span,
 .nav-pills .show > .nav-link > span {
     color: #fff;
-    background: #2882f7;
+    background: #0638db;
   }
 }
 
@@ -590,7 +590,7 @@ body {
 }
 
 a {
-  color: #2882f7;
+  color: #0638db;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   -ms-transition: all 0.5s ease 0s;
@@ -599,7 +599,7 @@ a {
 }
 
 a:hover {
-  color: #2882f7;
+  color: #0638db;
   text-decoration: underline;
 }
 
@@ -655,15 +655,15 @@ img {
   box-shadow: 0px 2px 8px rgba(247, 244, 244, 0.904);
 }
 #header.is_stuck .btn-primary {
-  background: #2882f7;
+  background: #0638db;
   color: #fff;
-  border-color: #2882f7;
+  border-color: #0638db;
   width: 180px;
 }
 #header.is_stuck .btn-primary:hover {
   background: #fff;
   color: #eff2f5;
-  border-color: #2882f7;
+  border-color: #0638db;
 }
 #header.is_stuck .wrap-main-nav .navbar-collapse {
   margin: 0 !important;
@@ -723,7 +723,7 @@ img {
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active > .nav-link {
-  color: #2882f7;
+  color: #0638db;
   text-decoration: underline;
 }
 
@@ -779,7 +779,7 @@ img {
   color: #5C6067;
 }
 #header .dropdown-toggle a:hover {
-  color: #2882f7;
+  color: #0638db;
 }
 #header .dropdown-toggle {
 
@@ -812,7 +812,7 @@ img {
 }
 #header .dropdown-item:hover {
   background: transparent;
-  color: #2882f7;
+  color: #0638db;
 }
 @media (max-width: 1024.98px) {
   #header .dropdown-toggle,
@@ -870,7 +870,7 @@ img {
     color: #fff;
   }
   #header .navbar-collapse .btn-primary:hover {
-    color: #2882f7;
+    color: #0638db;
   }
 }
 @media (max-width: 767px) {
@@ -892,20 +892,20 @@ img {
 @media (min-width: 768px) {
   #header .btn-primary {
     background: #fff;
-    color: #2882f7;
-    border-color: #2882f7;
+    color: #0638db;
+    border-color: #0638db;
     font-weight: 400;
     width: 180px;
   }
   #header .btn-primary:hover {
     color: #fff;
-    background: #2882f7;
-    border-color: #2882f7;
+    background: #0638db;
+    border-color: #0638db;
     text-decoration: none;
   }
 }
 #header .dropdown-toggle::after {
-  color: #2882f7;
+  color: #0638db;
   background: url(../images/dropdown.svg) no-repeat right center;
   width: 9px;
   height: 5px;
@@ -933,7 +933,7 @@ img {
   color: #fff;
 }
 #header .dropdown-main-menu .btn-primary:hover {
-  color: #2882f7;
+  color: #0638db;
 }
 #header .dropdown-main-menu .dropdown-item {
   color: #5C6067;
@@ -942,7 +942,7 @@ img {
 }
 #header .dropdown-main-menu .dropdown-itemk:hover,
 #header .dropdown-main-menu .active > .nav-link {
-  color: #2882f7;
+  color: #0638db;
   text-decoration: underline;
 }
 
@@ -1876,7 +1876,7 @@ body.home #slider-section {
 
 /* Choose your Google Ad goal */
 #DefineYourTarget.facebook-das .btn-group label.active {
-  background: #2882f7;
+  background: #0638db;
 }
 
 /* Microsoft Ads
