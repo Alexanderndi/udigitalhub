@@ -9,10 +9,10 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2;
-  color: #f7fafd;
-  background-color: #dfdfe9;
+  color: #05315c;
+  background-color: #f3f3f7;
   background-clip: padding-box;
-  border: 1px solid #6565ff;
+  border: 1px solid #3908ec;
   border-radius: 0.2rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -27,21 +27,21 @@
 }
 .form-control:-moz-focusring {
   color: transparent;
-  text-shadow: 0 0 0 #dfe2e6;
+  text-shadow: 0 0 0 #070707;
 }
 .form-control:focus {
-  color: #e5e8eb;
+  color: #070707;
   background-color: #FAFAFC;
-  border-color: #ffebf6;
+  border-color: #240ab4;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(236, 213, 227, 0.808);
+  box-shadow: 0 0 0 0.2rem rgba(5, 34, 161, 0.808);
 }
 .form-control::placeholder {
-  color: #848A96;
+  color: #2b2929;
   opacity: 1;
 }
 .form-control:disabled, .form-control[readonly] {
-  background-color: #ABB1BA;
+  background-color: #424242;
   opacity: 1;
 }
 
