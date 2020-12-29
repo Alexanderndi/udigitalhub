@@ -42,14 +42,47 @@
 </head>
 <body class="home">
 
-
-<!--- Header --->
 <header id="header" class="sticky">
     <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container">
             <a class="navbar-brand" href="../en.html">
                 <img src="../static\images\logo.png" alt="udigitalhub">
             </a>
+			<div class="dropdown d-flex mr-auto d-md-none">
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    EN
+                </a>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" hreflang="de" href="../de.html">
+                            Deutsch
+                        </a>
+                                            <a class="dropdown-item" hreflang="en" href="../en.html">
+                            English
+                        </a>
+                                            <a class="dropdown-item" hreflang="es" href="../es.html">
+                            Español
+                        </a>
+                                            <a class="dropdown-item" hreflang="fr" href="../fr.html">
+                            Français
+                        </a>
+                                            <a class="dropdown-item" hreflang="id" href="../id.html">
+                            Indonesian
+                        </a>
+                                            <a class="dropdown-item" hreflang="it" href="../it.html">
+                            Italiano
+                        </a>
+                                            <a class="dropdown-item" hreflang="nl" href="../nl.html">
+                            Nederlands
+                        </a>
+                                            <a class="dropdown-item" hreflang="pt" href="../pt.html">
+                            Português
+                        </a>
+                                            <a class="dropdown-item" hreflang="tr" href="../tr.html">
+                            Türkçe
+                        </a>
+                </div>
+            </div>
             <ul class="mobile-menu nav d-flex d-md-none ">
                 <li class="ml-auto"><a class="nav-link font-weight-bold" href="https://app.udigitalhub.ga/index.html">Login</a></li>
                 <li class="dropdown mobile-menu-btn-wrap"><a class="nav-link font-weight-bold dropdown-toggle" href="#" id="navbarMobileDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,19 +105,47 @@
                                 <a class="dropdown-item" href="../en\facebook-ads.html">Facebook Ads</a>
                                 <a class="dropdown-item" href="../en\instagram-ads.html">Instagram Ads</a>
                                 <a class="dropdown-item" href="../en\microsoft-ads.html">Microsoft Ads</a>
-								<a class="dropdown-item" href="../build/index.html">Create Website</a>
-                            </div>
-                        </li>
-                        <li class="nav-item d-none d-md-inline-block dropdown">
-                            <a class="nav-link font-weight-bold dropdown-toggle" href="#" id="navbarResourcesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Resources                            </a>
-                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarResourcesDropdown">
-                                <a class="dropdown-item" href="https://help.udigitalhub.ga/" target="_blank">Support Center</a>
-                                <a class="dropdown-item" href="../en\contact.html">Contact</a>
                             </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold" href="../en\pricing.html">Pricing</a>
+                        </li>
+						<li class="nav-item">
+						    <a class="nav-link font-weight-bold" href="../build/index.html">Build</a>
+						</li>
+						<li class="nav-item d-none d-md-inline-block dropdown">
+                            <a class="nav-link font-weight-bold dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                EN
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                                    <a class="dropdown-item" hreflang="de" href="../de.html"><!--rel="alternate"-->
+                                        Deutsch
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="en" href="../en.html"><!--rel="alternate"-->
+                                        English
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="es" href="../es.html"><!--rel="alternate"-->
+                                        Español
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="fr" href="../fr.html"><!--rel="alternate"-->
+                                        Français
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="id" href="../id.html"><!--rel="alternate"-->
+                                        Indonesian
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="it" href="../it.html"><!--rel="alternate"-->
+                                        Italiano
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="nl" href="../nl.html"><!--rel="alternate"-->
+                                        Nederlands
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="pt" href="../pt.html"><!--rel="alternate"-->
+                                        Português
+                                    </a>
+                                                                    <a class="dropdown-item" hreflang="tr" href="../tr.html"><!--rel="alternate"-->
+                                        Türkçe
+                                    </a>
+                            </div>
                         </li>
                     </ul>
                     <div class="form-inline ">
@@ -220,18 +281,25 @@
     </div>
 </section>
 
-<footer id="footer">
-				
+<div id="container">
+<div class="container">
+<footer id="footer">			
     <div class="top-footer ">
         <div class="container">
             <div class="row custom-row align-items-center text-center text-lg-left text-dark">
                 <div class="widget col col-22 col-lg-22">
                     <div class="row custom-row">
-                        <div class="col col-10 col-lg-3">
-						<a>
-							<img src="../static\images\illustration-4.png">
-						</a>   				
-						</div>
+                        <div class="col-md-4">
+	                        <div class="footer-about-udigitalhub col-lg-8 text-center text-color:rgba(0,0,255)>
+			                    <a class="brand-logo" href="../index.html">
+				                    <picture><source media="(max-width: 425px)" srcSet="../static/images/logo.png"/>
+					                        <img src="../static/images/logo.png" class="footer-logo" alt="udigitalhub.ga | Automated Software"/>
+				                        </picture>
+				                </a>
+				                    <h6><p>U-digitalhub helps businesses around the world to get relevant traffic.
+Our AI-based optimization for marketing campaigns increases your results and make you spend less.</p></h6>
+			                </div>
+		                </div>
 
 						<div class="col col-12 col-lg-2">
                             <a class="widget-title d-block d-lg-none font-weight-bold " data-toggle="collapse" href="#support-tools" role="button" aria-expanded="false" aria-controls="support-tools"><span>Support Tools & Contact</span></a>
@@ -263,11 +331,11 @@
                                     <li><a href="about.html">About Us </a></li>
                                     <li><a href="careers.html">Careers</a></li>
                                     <li><a href="partners.html">Partner Program </a></li>
-                                                                </ul>
+                                                                    </ul>
                             </div>
                         </div>
 
-                        <div class="col col-12 col-lg-3">
+                        <div class="col col-12 col-lg-2">
                             <a class="widget-title d-block d-lg-none  font-weight-bold border-top " data-toggle="collapse" href="#advertising-channels" role="button" aria-expanded="false" aria-controls="advertising-channels"><span>Advertising Channels</span></a>
                             <div id="advertising-channels" class="widget-content collapse d-lg-block">
                                 <ul>
